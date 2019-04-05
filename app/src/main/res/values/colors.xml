@@ -6,4 +6,8 @@
 
     <color name="colorButtonSubmitBackground">#4CAF50</color>
     <color name="colorButtonSubmitText">#fff</color>
+
+    <color name="colorTextViewPhone">#F30707</color>
+    <color name="colorTextViewPass">#F30707</color>
+    <color name="colorTextViewSubmit">#009688</color>
 </resources>

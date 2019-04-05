@@ -47,6 +47,13 @@
         android:hint="@string/phone"
         />
 
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testPhone"
+        android:textColor="@color/colorTextViewPhone"/>
+
     <EditText
         android:id="@+id/text_password"
         android:layout_width="match_parent"
@@ -58,6 +65,13 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="@string/password"/>
+
+    <TextView
+        android:id="@+id/tv_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testPass"
+        android:textColor="@color/colorTextViewPass"/>
 
     <CheckBox
         android:id="@+id/cb_term"
@@ -79,5 +93,13 @@
         android:paddingBottom="10dp"
         android:text="@string/button"
         android:background="@color/colorButtonSubmitBackground"
-        android:textColor="@color/colorButtonSubmitText"/>
+        android:textColor="@color/colorButtonSubmitText"
+        android:onClick="onSubmit"/>
+
+    <TextView
+        android:id="@+id/text_sumit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/testSubmit"
+        android:textColor="@color/colorTextViewSubmit"/>
 </LinearLayout>

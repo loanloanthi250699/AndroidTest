@@ -7,4 +7,8 @@
     <string name="password">Your Password</string>
     <string name="checkBox">This is the terms and condition you must accept or you can not continue easy as peace</string>
     <string name="button">Submit</string>
+
+    <string name="testPhone">Invalid phone</string>
+    <string name="testPass">Not a real Password</string>
+    <string name="testSubmit">Not a real Submit</string>
 </resources>
